@@ -1,0 +1,12 @@
+# ExamNet question paper. Format: id|question|A|B|C|D|answer
+#paper DCS-2026-A
+1|Which Java class waits for TCP client connections?|Socket|ServerSocket|DatagramSocket|URL|B
+2|Which protocol delivers one datagram to a whole group?|TCP|HTTP|Multicast|FTP|C
+3|In Java RMI, what does the client call methods on?|Skeleton|Stub|Registry|Socket|B
+4|Default port of the RMI registry?|80|1099|8080|2049|B
+5|In the Bully algorithm, who becomes coordinator?|Lowest live id|First to reply|Highest live id|Random node|C
+6|Lamport receive rule: C becomes|C + 1|ts + 1|max(C, ts) + 1|min(C, ts)|C
+7|NTP offset uses how many timestamps?|2|3|4|8|C
+8|A fast clock is corrected by|Setting it back|Slewing it|Ignoring it|Restarting|B
+9|A web service is described in SOAP by its|WSDL|IDL|DNS record|Stub|A
+10|A write-ahead log is written|After the reply|Before the reply|Only on crash|Never|B
